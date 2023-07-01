@@ -58,7 +58,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'www.linkedin.com/in/lukewy'
+  linkedin_url: 'https://linkedin.com/in/lukewy'
 
 color_settings:
   background_color: '#ffffff'
