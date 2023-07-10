@@ -13,7 +13,7 @@ menu_settings:
     - title: 'About'
       url: '/about'
     - title: 'Skills'
-      url: '/skills/'    
+      url: '/skills'    
     - title: 'Contact'
       url: '/contact'
 
