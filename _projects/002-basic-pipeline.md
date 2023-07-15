@@ -31,21 +31,23 @@ The application itself in this project is simple, so that the CI pipeline is the
 
 ### Overview of Pipeline Steps
 
-- check out the code using `actions/checkout@v3`.
-- configure AWS credentials with `aws-actions/configure-aws-credentials@v2`.
-- setup Terraform with `hashicorp/setup-terraform@v2`.
-- check the Terraform formatting.
-- initialize the Terraform workspace in a `test` environment.
-- validate the Terraform code.
-- deploy to the `test` environment with `terraform apply`.
-- extract the Terraform outputs to a json file so that they are available for the integration tests to reference.
-- setup Python on the GitHub runner.
-- install Python dependencies.
-- run a Python script to seed the database with test data.
-- run the integration tests with pytest.
-- tear down the test environment with `terraform destroy`.
-- run `terraform plan` in the UAT environment.
-- update the pull request with the terraform validation and integration test results, as well as the UAT Terraform plan.
+| Continuous Integration                         | Continous Deployment                         |
+|------------------------------------------------|----------------------------------------------|
+| Check out the code                             | Checkout the code                            |
+| Configure AWS credentials                      | Configure AWS credentials                    |
+| Terraform: check the HCL code formatting       | Terraform: check the HCL code formatting     |
+| Terraform: initialize the test environment     | Terraform: initialize the UAT environment    |
+| Terraform: validate the HCL code               | Terraform: validate the HCL code             |
+| Terraform: deploy to test environment          | ---                                          |
+| Terraform: write outputs to json file          | ---                                          |
+| Setup Python                                   | ---                                          |
+| Install Python dependencies                    | ---                                          |
+| Run Python script to seed the database         | ---                                          |
+| Run integration tests (pytest)                 | ---                                          |
+| Terraform: tear down the test environment      | ---                                          |
+| Terraform: create plan for UAT environment     | ---                                          |
+| Update pull request with test results and plan | ---                                          |
+| ---                                            | Terraform: deploy to UAT environment         |
 
 ### Security Hardening with AWS IAM and OpenID Connect
 

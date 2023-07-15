@@ -16,20 +16,26 @@ featured_image: '/images/singermic_square.jpg'
 
 
 ## The Karaoke Suite
-At the beginning of 2019, I started taking singing lessons. Immersed in my new passion, I found myself attending karaoke evenings at several establishments around Capitol Hill, Denver. Karaoke is still very much a paper-and-pencil affair. It occurred to me that a good karaoke app would entail an phone app for patrons, where users can search for songs by title and artist "Spotify-style" and then choose a song and and request to be added to the DJ's queue. The DJ version of the app would allow the DJ to manage the queue from their end. 
+At the beginning of 2019, I started taking singing lessons. I went to karaoke a good three times a week as an outlet for my newfound hobby. Karaoke today is still in the dark ages. The song database is a set of large, black binders, and song requests are written in pencil on little pieces of paper and turned in to the DJ.  
 
-Given my career revamp in DevOps and cloud computing with AWS services, I decided to implement my idea as a suite of projects that entail a microservices appliction along with other projects to implement the cloud infrastructure by means of Infrastructure as Code. What I like about what I've done here, is that I've created a fun, learning and training playground for myself where I can learn a host of DevOps and cloud computing technologies hands-on.
+By the end of 2019, I realized that the idea of a karaoke app would be an rich use case for applying my skills at application development. Now, with the revamp of my career in DevOps, I have purposed the karaoke concept as the foundation for a non-trivial, real-world project to showcase my skills in product concept realization, complex application architecture, DevOps with Terraform and AWS services, and applicaton development.
 
-This is very much a work in progress and a learning experience. I'm having a lot of fun working on this effort. I hope you enjoy it, too!
+I have decomposed this effort into a suite of projects as the primary way of managing complexity. This is very much a work in progress and a learning experience. I'm having a lot of fun working on this effort. I hope you enjoy it, too!
 
 ### The Karaoke App
 [source code](https://github.com/lukewyman/karaoke-app)
 
+
+
 ### Karaoke App Infrastructure
 [source code](https://github.com/lukewyman/karaoke-with-infra-and-pipeline)
 
+
+
 ### The Base Infrastructure Project
 [source code](https://github.com/lukewyman/karaoke-base-infrastructure)
+
+
 
 ### Future Projects
 - Karaoke Media:
