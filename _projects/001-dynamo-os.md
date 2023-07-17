@@ -8,7 +8,7 @@ features:
   - a DynamoDB change stream as the event source
   - an AWS Lambda to process the record changes
   - an OpenSearch domain
-featured_image: '/images/projects/dynamo-os-landscape.jpeg'
+featured_image: '/images/projects/dynamo-os-square.jpeg'
 ---
 
 ![](/images/projects/dynamo-os-landscape.jpeg)
