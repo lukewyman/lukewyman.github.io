@@ -25,7 +25,7 @@ I have decomposed this effort into a suite of projects as the primary way of man
 ### The Karaoke App
 [source code](https://github.com/lukewyman/karaoke-app)
 
-
+![](/images/projects/microservices.jpeg)
 
 ### Karaoke App Infrastructure
 [source code](https://github.com/lukewyman/karaoke-with-infra-and-pipeline)
@@ -35,7 +35,7 @@ I have decomposed this effort into a suite of projects as the primary way of man
 ### The Base Infrastructure Project
 [source code](https://github.com/lukewyman/karaoke-base-infrastructure)
 
-
+![](/images/projects/base-infrastructure.jpeg)
 
 ### Future Projects
 - Karaoke Media:

@@ -8,9 +8,10 @@ features:
   - a GitHub Actions CI/CD pipeline
   - integration tests
   - pipeline output written to the pull request
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/projects/basic-pipeline-square.jpeg'
 ---
 
+![](/images/projects/basic-pipeline-landscape.jpeg)
 
 ## Basic Continuous Integraton Pipeline
 
