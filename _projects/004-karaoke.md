@@ -25,12 +25,17 @@ I have decomposed this effort into a suite of projects as the primary way of man
 ### The Karaoke App
 [source code](https://github.com/lukewyman/karaoke-app)
 
+#### The Microservices
 ![](/images/projects/microservices.jpeg)
+
+
+#### The Continuous Integration Pipeline
+![](/images/projects/karaoke-app-pipeline.jpeg)
 
 ### Karaoke App Infrastructure
 [source code](https://github.com/lukewyman/karaoke-with-infra-and-pipeline)
 
-
+![](/images/projects/karaoke-microservice-infra.jpeg)
 
 ### The Base Infrastructure Project
 [source code](https://github.com/lukewyman/karaoke-base-infrastructure)
