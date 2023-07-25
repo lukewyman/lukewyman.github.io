@@ -2,7 +2,7 @@
 title: Skills
 subtitle: Infrastructure as Code, Cloud Computing, Application Development, and more! 
 description: Comprehensive skills matrix
-featured_image: /images/demo/about.jpg
+featured_image: /images/tech-colage.jpeg
 ---
 
 ## Skills
