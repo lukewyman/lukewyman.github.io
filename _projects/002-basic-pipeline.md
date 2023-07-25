@@ -11,7 +11,7 @@ features:
 featured_image: '/images/projects/basic-pipeline-square.jpeg'
 ---
 
-![](/images/projects/basic-pipeline-landscape.jpeg)
+![pipeline flow chart](/images/projects/basic-pipeline-landscape.jpeg)
 
 ## Basic Continuous Integraton Pipeline
 
@@ -20,6 +20,7 @@ featured_image: '/images/projects/basic-pipeline-square.jpeg'
 With a serverless application as the subject of deployment, this project demonstrates a basic continuous integraton pipeline using GitHub Actions and Terraform. Features include automation of Terraform deployment, integration tests, and output written to the pull request.
 
 ### Tech Stack
+
 - GitHub Actions
 - Terraform
 - Python / pytest
@@ -54,12 +55,13 @@ The application itself in this project is simple, so that the CI pipeline is the
 
 Rather than implement security the quick-and-easy way by adding the AWS access keys as secrets in GitHub, this project demonstrates the more robust approach of configuring an OIDC approach with AWS IAM:
 
-1. Configure an OIDC provider in AWS IAM.
-2. Configure a Role in AWS IAM and add a trust relationship policy that allows access for the GitHub project:
+Configure an OIDC provider in AWS IAM.
+Configure a Role in AWS IAM and add a trust relationship policy that allows access for the GitHub project:
+
 ```json
 {
     "Version": "2012-10-17",
-    "Statement": [
+        "Statement": [
         {
             "Effect": "Allow",
             "Principal": {
@@ -80,28 +82,31 @@ Rather than implement security the quick-and-easy way by adding the AWS access k
     ]
 }
 ```
-3. Add permissions to the GitHub Action workflow to access the OIDC token:
-```
+
+Add permissions to the GitHub Action workflow to access the OIDC token:
+
+```yaml
 jobs:
-  test_and_deploy:
+test_and_deploy:
     name: "Test & Deploy to UAT"    
     runs-on: ubuntu-22.04
     defaults:
-      run:
+    run:
         working-directory: app
     permissions:
-      pull-requests: write 
-      id-token: write
-      contents: read
+    pull-requests: write 
+    id-token: write
+    contents: read
 ```
-4. Add a step to the job that uses the `aws-credentials/configure-aws-credentials` action and configure the step to use the role:
-```
+
+Add a step to the job that uses the `aws-credentials/configure-aws-credentials` action and configure the step to use the role:
+
+```yaml
 - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2 
         with:
-          role-to-assume: arn:aws:iam::<account number>:role/github-actions
-          aws-region: us-west-2
+        role-to-assume: arn:aws:iam::<account number>:role/github-actions
+        aws-region: us-west-2
 ```
 
 ### Integration Testing
-
