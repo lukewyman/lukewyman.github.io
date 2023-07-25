@@ -24,6 +24,17 @@ Infrastructure as Code and CI/CD Pipelines are my true love! I enjoy the simple 
 - **CloudFormation / AWS CDK**
 - **Docker**
 
+### Application Development
+
+I still enjoy application development, and it's good to show off if you know how to build one. Here's my my up-to-date skillset on backend development:
+
+- FastAPI / Python / Pytest
+- AWS Libraries: boto3, moto
+- Database Libraries: motor (MongoDB), sqlalchemy
+- Test-Driven Development / unit tests / integration tests
+- Domain-Driven Design / Microservices
+- Purpose-Built Databases
+
 ### Cloud Computing - AWS 
 
 I am proficient at Infrastructure as Code with the following AWS services. I have hands-on experience building out the infrastructure for container-based web backends with Terraform, as well as building Serverless applications with AWS CDK or Serverless Stack.
@@ -55,11 +66,3 @@ I am proficient at Infrastructure as Code with the following AWS services. I hav
 - Amazon EventBridge
 - AWS Systems Manager Parameter Store
 
-### Application Development
-
-- FastAPI / Python / Pytest
-- AWS Libraries: boto3, moto
-- Database Libraries: motor (MongoDB), sqlalchemy
-- Test-Driven Development / unit tests / integration tests
-- Domain-Driven Design / Microservices
-- Purpose-Built Databases
