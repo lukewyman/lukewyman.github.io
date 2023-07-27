@@ -26,11 +26,11 @@ Infrastructure as Code and CI/CD Pipelines are my true love! I enjoy the simple 
 
 ### Application Development
 
-I still enjoy application development, and it's good to show off if you know how to build one. Here's my my up-to-date skillset on backend development:
+I still enjoy application development, and it's good to show off if you know how to build one. Here's my up-to-date skillset on backend development:
 
 - FastAPI / Python / Pytest
 - AWS Libraries: boto3, moto
-- Database Libraries: motor (MongoDB), sqlalchemy
+- Database Libraries: motor (MongoDB), SQLAlchemy
 - Test-Driven Development / unit tests / integration tests
 - Domain-Driven Design / Microservices
 - Purpose-Built Databases
