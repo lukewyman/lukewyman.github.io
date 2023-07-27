@@ -7,7 +7,7 @@ featured_image: /images/tech-colage.jpeg
 
 ## About Me
 
-Over the last few years, I have had to deal with a personal life event that necessitated taking significant periods of time off work. Prior to this, I was a generally unhappy person. I didn't take a deep interest in my work, but did well enough as an agreeable guy at easy-going jobs with a cruise-control attitude. While working at AWS itself during 2020, I developed an interest in DevOps. I quickly fell in love with Infrastructure as Code and automated deployment, and decided to retool myself as a DevOps engineer. 
+Over the last few years, I have had to deal with a personal life event that necessitated taking significant periods of time off work. To get back in the saddle, I set about the work of retooling my career. While working at AWS itself during 2020, I developed an interest in DevOps. I quickly fell in love with Infrastructure as Code and automated deployment, and decided that a career as a DevOps engineer was the right direction. 
 
 As an independent, hands-on learner, I like to build things. It seemed to me that a course of action that would match my style would be to build a portfolio of projects by which I could show, not tell, what I can do. I started out small: taking courses on Udemy, reading articles on Medium, and reading the AWS documentation and implementing AWS documentation how-to's. Having come to a point where I have a respectable collection of arrows in my skills quiver, this year has proven rewarding in my portfolio project work. During the course of working on these projects, I have grown in confidence, range and velocity. 
 
